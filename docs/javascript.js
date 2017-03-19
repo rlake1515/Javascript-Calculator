@@ -5,45 +5,75 @@ var display = '';
 
 // Button press functions
 function b1(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "1" ;
     toExecute += "1";
     document.getElementById("displayText").innerHTML = display;
 }
 function b2(){
+    if(toExecute.length < 1){
+        stored = '';
+    }    
     display += "2" ;
     toExecute += "2";
     document.getElementById("displayText").innerHTML = display;
 }
 function b3(){
+    if(toExecute.length < 1){
+        stored = '';
+    }    
     display += "3" ;
     toExecute += "3";
     document.getElementById("displayText").innerHTML = display;
 }
 function b4(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "4" ;
     toExecute += "4";
     document.getElementById("displayText").innerHTML = display;}
 function b5(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "5" ;
     toExecute += "5";
     document.getElementById("displayText").innerHTML = display;}
 function b6(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "6" ;
     toExecute += "6";
     document.getElementById("displayText").innerHTML = display;}
 function b7(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "7" ;
     toExecute += "7";
     document.getElementById("displayText").innerHTML = display;}
 function b8(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "8" ;
     toExecute += "8";
     document.getElementById("displayText").innerHTML = display;}
 function b9(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "9" ;
     toExecute += "9";
     document.getElementById("displayText").innerHTML = display;}
 function b0(){
+    if(toExecute.length < 1){
+        stored = '';
+    }
     display += "0" ;
     toExecute += "0";
     document.getElementById("displayText").innerHTML = display;}
